@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TaSe</string>
+    <string name="welcome">Welcome to TaSe</string>
+    <string name="login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="TaSe">Design by TaSe</string>
+    <string name="SignUp">Sign up</string>
+    <string name="FullName">Full name</string>
+    <string name="Register">Register</string>
+    <string name="header">header</string>
+    <string name="Home">Home</string>
+    <string name="Notification">Notification</string>
+    <string name="txtCaNhan">Personal Table</string>
+    <string name="txtTaoBang">Create Project </string>
+    <string name="TableName">Project Name</string>
+    <string name="NewTable">New Project</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>

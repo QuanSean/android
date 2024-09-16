@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:textSize="22sp"
+        android:text="Quên mật khau"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Vui lòng nhập email để nhận được mã xác nhận"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:id="@+id/editEmail"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/colorAccent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorWhite"
+            android:text="Đồng ý"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentEnd="true"
+          />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã xác nhận"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:id="@+id/editKey"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/colorAccent"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:id="@+id/editPassword"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/colorAccent"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnChangePassWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorWhite"
+            android:text="Thay đổi mật khẩu"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorAccent"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</LinearLayout>

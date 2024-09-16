@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleItemProject"
+        android:textSize="24dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionItemProject"
+        android:textSize="18dp"
+        android:textColor="@android:color/darker_gray"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deadlineItemProject"
+        android:textSize="15dp"
+        android:textColor="@android:color/darker_gray"
+    />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--android:gravity="center|bottom">-->
+
+
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:textSize="22sp"
+        android:text="TẠO CÔNG VIỆC"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên công việc"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:id="@+id/editCreateTask"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/colorAccent"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnCreateTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorWhite"
+            android:text="Tạo công việc"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
